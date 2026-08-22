@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Showroom Ain Touta | سيارات جديدة</title>
+
+  <meta name="description"
+    content="Showroom Ain Touta - سيارات جديدة في باتنة عين التوتة">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+  <div class="logo-box">
+    <div class="logo">AUTO</div>
+
+    <div class="brand-name">
+      <strong>SHOWROOM</strong>
+      <span>AIN TOUTA</span>
+    </div>
+  </div>
+
+  <nav id="nav">
+    <a href="#home">الرئيسية</a>
+    <a href="#cars">السيارات</a>
+    <a href="#order">طلب معلومات</a>
+    <a href="#contact">اتصل بنا</a>
+  </nav>
+
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+</header>
+
+
+<section id="home" class="hero">
+
+  <div class="hero-content">
+
+    <span class="small-title">
+      BATNA • AIN TOUTA
+    </span>
+
+    <h1>
+      سيارتك الجديدة
+      <span>تبدأ من هنا</span>
+    </h1>
+
+    <p>
+      اكتشف مجموعتنا من السيارات الجديدة
+      واختر السيارة التي تناسب احتياجاتك.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a href="#cars" class="main-btn">
+        🚘 شاهد السيارات
+      </a>
+
+      <a href="#order" class="whatsapp-btn">
+        📋 اطلب معلومات
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="stats">
+
+  <div>
+    <strong>7</strong>
+    <span>موديلات متوفرة</span>
+  </div>
+
+  <div>
+    <strong>2025 / 2026</strong>
+    <span>سيارات جديدة</span>
+  </div>
+
+  <div>
+    <strong>0671 36 68 13</strong>
+    <span>اتصل بنا</span>
+  </div>
+
+</section>
+
+
+<section id="cars" class="cars-section">
+
+  <div class="section-title">
+
+    <span>OUR CARS</span>
+
+    <h2>السيارات المتوفرة</h2>
+
+    <p>اختر السيارة التي تناسبك</p>
+
+  </div>
+
+
+  <div class="cars-grid">
+
+
+    <!-- GEELY -->
+
+    <article class="car-card">
+
+      <div class="car-image">
+
+        <img
+          src="https://www.geely.com.eg/wp-content/uploads/2023/10/GX3-Pro.png"
+          alt="Geely GX3 Pro"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+
+        <div class="fallback">
+          🚘
+          <strong>GEELY GX3 PRO</strong>
+        </div>
+
+        <span class="year">2026</span>
+
+      </div>
+
+      <div class="car-info">
+
+        <span class="brand">GEELY</span>
+
+        <h3>GX3 Pro</h3>
+
+        <p>
+          SUV عصرية وعملية للاستخدام اليومي والمدينة.
+        </p>
+
+        <div class="tags">
+          <span>🚘 SUV</span>
+          <span>⚙️ أوتوماتيك</span>
+          <span>⛽ 1.5L</span>
+        </div>
+
+        <div class="price">
+          <small>السعر</small>
+          <strong>380 مليون</strong>
+        </div>
+
+        <button
+          class="select-car"
+          onclick="selectCar('Geely GX3 Pro 2026')">
+          أريد هذه السيارة
+        </button>
+
+      </div>
+
+    </article>
+
+
+    <!-- ALTO -->
+
+    <article class="car-card">
+
+      <div class="car-image">
+
+        <img
+          src="https://www.marutisuzuki.com/-/media/marutisuzuki/alto-k10/images/alto-k10-banner.jpg"
+          alt="Suzuki Alto K10"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+
+        <div class="fallback">
+          🚗
+          <strong>ALTO K10</strong>
+        </div>
+
+        <span class="year">2025</span>
+
+      </div>
+
+      <div class="car-info">
+
+        <span class="brand">SUZUKI</span>
+
+        <h3>Alto K10</h3>
+
+        <p>
+          سيارة صغيرة اقتصادية ومناسبة للاستعمال داخل المدينة.
+        </p>
+
+        <div class="tags">
+          <span>🚗 Compact</span>
+          <span>⚙️ أوتوماتيك</span>
+          <span>⛽ 1.0L</span>
+        </div>
+
+        <div class="price">
+          <small>السعر</small>
+          <strong>165 مليون</strong>
+        </div>
+
+        <button
+          class="select-car"
+          onclick="selectCar('Suzuki Alto K10 2025')">
+          أريد هذه السيارة
+        </button>
+
+      </div>
+
+    </article>
+
+
+    <!-- TIGGO 4 -->
+
+    <article class="car-card">
+
+      <div class="car-image">
+
+        <img
+          src="https://www.chery.co.za/wp-content/uploads/2024/04/Tiggo-4-Pro.png"
+          alt="Chery Tiggo 4 Pro"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+
+        <div class="fallback">
+          🚙
+          <strong>TIGGO 4 PRO</strong>
+        </div>
+
+        <span class="year">2025</span>
+
+      </div>
+
+      <div class="car-info">
+
+        <span class="brand">CHERY</span>
+
+        <h3>Tiggo 4 Pro</h3>
+
+        <p>
+          SUV عصرية بتصميم رياضي وتجهيزات مريحة.
+        </p>
+
+        <div class="tags">
+          <span>🚙 SUV</span>
+          <span>⚙️ CVT</span>
+          <span>⛽ 1.5L</span>
+        </div>
+
+        <div class="price">
+          <small>السعر</small>
+          <strong>350 مليون</strong>
+        </div>
+
+        <button
+          class="select-car"
+          onclick="selectCar('Chery Tiggo 4 Pro 2025')">
+          أريد هذه السيارة
+        </button>
+
+      </div>
+
+    </article>
+
+
+    <!-- TIGGO 2 -->
+
+    <article class="car-card">
+
+      <div class="car-image">
+
+        <img
+          src="https://www.chery.co.za/wp-content/uploads/2023/10/Tiggo-2-Pro.png"
+          alt="Chery Tiggo 2 Pro"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+
+        <div class="fallback">
+          🚙
+          <strong>TIGGO 2 PRO</strong>
+        </div>
+
+        <span class="year">2025</span>
+
+      </div>
+
+      <div class="car-info">
+
+        <span class="brand">CHERY</span>
+
+        <h3>Tiggo 2 Pro</h3>
+
+        <p>
+          SUV صغيرة بتصميم عصري ومناسبة للمدينة.
+        </p>
+
+        <div class="tags">
+          <span>🚙 SUV</span>
+          <span>⚙️ أوتوماتيك</span>
+          <span>⛽ اقتصادي</span>
+        </div>
+
+        <div class="price">
+          <small>السعر</small>
+          <strong>299 مليون</strong>
+        </div>
+
+        <button
+          class="select-car"
+          onclick="selectCar('Chery Tiggo 2 Pro 2025')">
+          أريد هذه السيارة
+        </button>
+
+      </div>
+
+    </article>
+
+
+    <!-- DFSK FRIGO -->
+
+    <article class="car-card">
+
+      <div class="car-image">
+
+        <img
+          src="https://www.dfskmadrid.es/wp-content/uploads/2022/11/C31-DFSK-Madrid.png"
+          alt="DFSK Frigo"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+
+        <div class="fallback frigo">
+          ❄️
+          <strong>DFSK FRIGO</strong>
+          <span>REFRIGERATED</span>
+        </div>
+
+        <span class="year">2025</span>
+
+      </div>
+
+      <div class="car-info">
+
+        <span class="brand">DFSK</span>
+
+        <h3>Frigo</h3>
+
+        <p>
+          مركبة نقل بصندوق مبرد مخصصة لنقل المنتجات الحساسة للحرارة.
+        </p>
+
+        <div class="tags">
+          <span>❄️ FRIGO</span>
+          <span>🚚 تجارية</span>
+          <span>📦 نقل</span>
+        </div>
+
+        <div class="price">
+          <small>السعر</small>
+          <strong>210 مليون</strong>
+        </div>
+
+        <button
+          class="select-car"
+          onclick="selectCar('DFSK Frigo 2025')">
+          أريد هذه السيارة
+        </button>
+
+      </div>
+
+    </article>
+
+
+    <!-- DFSK SINGLE -->
+
+    <article class="car-card">
+
+      <div class="car-image">
+
+        <img
+          src="https://dfsk.ar/wp-content/uploads/2026/02/C31.pdf"
+          alt="DFSK 1 Cabine"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+
+        <div class="fallback">
+          🚚
+          <strong>DFSK 1 CABINE</strong>
+        </div>
+
+        <span class="year">2025</span>
+
+      </div>
+
+      <div class="car-info">
+
+        <span class="brand">DFSK</span>
+
+        <h3>1 Cabine</h3>
+
+        <p>
+          بيك أب تجاري عملي للنقل والعمل والتجارة.
+        </p>
+
+        <div class="tags">
+          <span>🚚 Single Cab</span>
+          <span>📦 حمولة</span>
+          <span>⚙️ Manuel</span>
+        </div>
+
+        <div class="price">
+          <small>السعر</small>
+          <strong>190 مليون</strong>
+        </div>
+
+        <button
+          class="select-car"
+          onclick="selectCar('DFSK 1 Cabine 2025')">
+          أريد هذه السيارة
+        </button>
+
+      </div>
+
+    </article>
+
+
+    <!-- DFSK DOUBLE -->
+
+    <article class="car-card">
+
+      <div class="car-image">
+
+        <img
+          src="https://dfsk-auto.pl/file/cenniki/katalog_c31_c32.pdf"
+          alt="DFSK Double Cabine"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+
+        <div class="fallback">
+          🚚
+          <strong>DFSK DOUBLE CABINE</strong>
+        </div>
+
+        <span class="year">2025</span>
+
+      </div>
+
+      <div class="car-info">
+
+        <span class="brand">DFSK</span>
+
+        <h3>Double Cabine</h3>
+
+        <p>
+          بيك أب بمقصورة مزدوجة، مناسب للعمل والنقل.
+        </p>
+
+        <div class="tags">
+          <span>🚚 Double Cab</span>
+          <span>👥 4 مقاعد</span>
+          <span>⚙️ Manuel</span>
+        </div>
+
+        <div class="price">
+          <small>السعر</small>
+          <strong>200 مليون</strong>
+        </div>
+
+        <button
+          class="select-car"
+          onclick="selectCar('DFSK Double Cabine 2025')">
+          أريد هذه السيارة
+        </button>
+
+      </div>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- ================= FORM ================= -->
+
+<section id="order" class="order-section">
+
+  <div class="section-title">
+
+    <span>CONTACT</span>
+
+    <h2>اطلب معلومات</h2>
+
+    <p>
+      سجل معلوماتك وسنتواصل معك مباشرة عبر WhatsApp
+    </p>
+
+  </div>
+
+
+  <div class="form-container">
+
+    <form id="customerForm">
+
+      <div class="form-row">
+
+        <div class="input-group">
+
+          <label>الاسم الكامل *</label>
+
+          <input
+            id="name"
+            type="text"
+            placeholder="اكتب اسمك"
+            required>
+
+        </div>
+
+
+        <div class="input-group">
+
+          <label>رقم الهاتف *</label>
+
+          <input
+            id="phone"
+            type="tel"
+            placeholder="0550 00 00 00"
+            required>
+
+        </div>
+
+      </div>
+
+
+      <div class="form-row">
+
+        <div class="input-group">
+
+          <label>الولاية *</label>
+
+          <select id="wilaya" required>
+
+            <option value="">اختر الولاية</option>
+
+            <option>أدرار</option>
+            <option>الشلف</option>
+            <option>الأغواط</option>
+            <option>أم البواقي</option>
+            <option>باتنة</option>
+            <option>بجاية</option>
+            <option>بسكرة</option>
+            <option>بشار</option>
+            <option>البليدة</option>
+            <option>البويرة</option>
+            <option>تمنراست</option>
+            <option>تبسة</option>
+            <option>تلمسان</option>
+            <option>تيارت</option>
+            <option>تيزي وزو</option>
+            <option>الجزائر</option>
+            <option>الجلفة</option>
+            <option>جيجل</option>
+            <option>سطيف</option>
+            <option>سعيدة</option>
+            <option>سكيكدة</option>
+            <option>سيدي بلعباس</option>
+            <option>عنابة</option>
+            <option>قالمة</option>
+            <option>قسنطينة</option>
+            <option>المدية</option>
+            <option>مستغانم</option>
+            <option>المسيلة</option>
+            <option>معسكر</option>
+            <option>ورقلة</option>
+            <option>وهران</option>
+            <option>برج بوعريريج</option>
+            <option>بومرداس</option>
+            <option>الطارف</option>
+            <option>تندوف</option>
+            <option>تيسمسيلت</option>
+            <option>الوادي</option>
+            <option>خنشلة</option>
+            <option>سوق أهراس</option>
+            <option>تيبازة</option>
+            <option>ميلة</option>
+            <option>عين الدفلى</option>
+            <option>النعامة</option>
+            <option>عين تموشنت</option>
+            <option>غرداية</option>
+            <option>غليزان</option>
+
+          </select>
+
+        </div>
+
+
+        <div class="input-group">
+
+          <label>العنوان</label>
+
+          <input
+            id="address"
+            type="text"
+            placeholder="البلدية / الحي">
+
+        </div>
+
+      </div>
+
+
+      <div class="input-group">
+
+        <label>السيارة المطلوبة *</label>
+
+        <select id="car" required>
+
+          <option value="">اختر السيارة</option>
+
+          <option>Geely GX3 Pro 2026 — 380 مليون</option>
+          <option>Suzuki Alto K10 2025 — 165 مليون</option>
+          <option>Chery Tiggo 4 Pro 2025 — 350 مليون</option>
+          <option>Chery Tiggo 2 Pro 2025 — 299 مليون</option>
+          <option>DFSK Frigo 2025 — 210 مليون</option>
+          <option>DFSK 1 Cabine 2025 — 190 مليون</option>
+          <option>DFSK Double Cabine 2025 — 200 مليون</option>
+
+        </select>
+
+      </div>
+
+
+      <div class="input-group">
+
+        <label>رسالتك</label>
+
+        <textarea
+          id="message"
+          rows="4"
+          placeholder="اكتب أي سؤال أو طلب..."></textarea>
+
+      </div>
+
+
+      <button
+        type="submit"
+        class="submit-btn">
+
+        🟢 إرسال الطلب عبر WhatsApp
+
+      </button>
+
+
+      <p class="privacy">
+        🔒 معلوماتك تستعمل فقط للتواصل معك بخصوص السيارة.
+      </p>
+
+    </form>
+
+  </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact-section">
+
+  <div class="contact-box">
+
+    <span>SHOWROOM AIN TOUTA</span>
+
+    <h2>تواصل معنا</h2>
+
+    <p>📍 باتنة — عين التوتة</p>
+
+    <p class="big-phone">
+      📞 0671 36 68 13
+    </p>
+
+    <div class="contact-buttons">
+
+      <a
+        href="tel:0671366813"
+        class="main-btn">
+        📞 اتصل الآن
+      </a>
+
+      <a
+        href="https://wa.me/213671366813"
+        target="_blank"
+        class="whatsapp-btn">
+        WhatsApp
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<footer>
+
+  <div class="footer-logo">
+    SHOWROOM
+  </div>
+
+  <p>AIN TOUTA — BATNA</p>
+
+  <span>
+    © 2026 جميع الحقوق محفوظة
+  </span>
+
+</footer>
+
+
+<a
+  href="https://wa.me/213671366813"
+  target="_blank"
+  class="floating-whatsapp">
+  WhatsApp
+</a>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
